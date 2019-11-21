@@ -1,0 +1,117 @@
+body{
+    background:url('../../img/new_background/230322.jpg');
+    background-size:cover;
+}
+.logo {
+	margin: 0 auto;
+}
+
+.logo img {
+	display: block;
+	margin: 0 auto;
+    height: 8em;
+    margin-top: 3%;
+	/*border: 3px solid #e6e6e6;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    background-color: #cccccc;*/
+}
+#altlogo {
+	display: block;
+	margin: 0 auto;
+    height: 8em;
+    margin-top: 3%;
+	/*border: 3px solid #e6e6e6;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+    background-color: #cccccc;*/
+}
+
+h1{
+	font-family: Futura, Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: white;
+	padding: 2%;
+	margin-top: 5%;
+	font-size: 30px;
+}
+p{
+	font-family: Futura, Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 17px;
+}
+#maincol{
+	margin: 0% 30% 0% 30%;
+}
+#options{
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+#options a{
+	display: inline-block;
+	margin: 0 10% 0 10%;
+	font-family: Futura, Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #10bce5;
+}
+
+.container-fluid .col-sm .formCnt {
+	border: 3px solid #f2f2f2;
+	padding-top: 15px;
+	background-color: #cccccc;
+    background-image: url(../img/clear_background.png);
+    background-position: repeat;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+}
+.formCnt .row input{
+	padding:10px 30px 10px 30px;
+	margin:10px;
+	display:block;
+	text-align: center;
+
+}
+.col-sm .formCnt .row {
+	padding: .5em;
+}
+.formCnt {
+	margin-bottom: 20px;
+}
+.formCnt input[type="text"], .formCnt input[type="password"] {
+	font-family: Futura, Arial, Helvetica, sans-serif;
+	display:block;
+	margin: 0 auto;
+	-webkit-border-radius: 5px;
+    border-radius: 5px; 
+    border:0 none;
+}
+.container3 .sButton {
+	margin-top: 20px;
+	margin: 0 auto;
+	width: 15em;
+	height: 3em; 
+    font-size: 1em;
+    font-family: Futura, Arial, Helvetica, sans-serif;
+    background-color: #10bce5;
+    color: white;
+    display:block;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#btnpad{
+	padding: 20px;
+}
+.formCnt button[type="submit"] {
+	font-family: Futura, Arial, Helvetica, sans-serif;
+	display: block;
+	margin: 0 auto;
+	padding:5px 15px; 
+    background:#10bce5; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}

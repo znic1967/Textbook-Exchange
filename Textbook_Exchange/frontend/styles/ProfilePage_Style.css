@@ -1,0 +1,99 @@
+body{
+  background:url('../../img/new_background/230322.jpg');
+  background-size:cover;
+}
+
+h4, h5{
+  font-family: Futura;
+  font-weight: normal;
+}
+
+h5,p{
+  padding:10px;
+  margin-bottom: 0px;
+}
+.profile-container{
+  width:40%;
+  margin:auto;
+  background-color:#fff;
+  padding:30px;
+  height:auto;
+}
+.user-name{
+  color:#0e2f44;
+  font-weight:bold;
+}
+.user-mail{
+  color:#858585;
+}
+.user-company{
+  font-weight:bold;
+  color:#10bce5;
+}.more-info{
+  background-color:#e5e5e5;
+  border-bottom:#ccc 1px solid ;
+}.todo-links{
+  padding:10px;
+  
+
+}
+.todo-links a i{
+  margin-right:20px;
+}
+.todo-links a{
+  color:#000;
+  font-size:16px;
+}
+#einfo{
+  padding: 10px;
+}
+#einfo h5:hover{
+  cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-family: Futura, 'Titillium Web', sans-serif;
+    font-size: 1.3em;
+    padding: 20px;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: white;
+}
+.navbar-light .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+ul.navbar-nav a:hover, ul.navbar-nav a:active, ul.navbar-nav a:focus{
+    /*background-color: #10bce5;*/
+    color: #10bce5 !important;
+}
+a.dropdown-item{
+  font-family: Futura, 'Titillium Web', sans-serif;
+}
+.navbar-light img{
+  height: 170px;
+  padding: 20px;
+}
+.navbar-light{
+  padding: none;
+}
+#carticon {
+   position:relative;
+}
+#carticon[data-badge]:after {
+   content: attr(data-badge);
+   position: absolute;
+   top: 1em;
+   right: -7px;
+   font-size: .7em;
+   background: none;
+   border: 2px solid white;
+   color: white;
+   width: 1.5em;
+   height: 1.5em;
+   text-align: center;
+   line-height: 18px;
+   border-radius: 50%;
+   font-family: Helvetica;
+}

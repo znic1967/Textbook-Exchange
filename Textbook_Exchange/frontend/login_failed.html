@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration Page</title>
+	<link rel="stylesheet" href="/frontend/styles/bootstrap.css">
+	<link href = "/frontend/styles/signup.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="logo">
+			<a href="../homepage.php">
+				<img id="altlogo" src="../img/logo_v8.png" alt="Logo">
+        	</a>
+		</div>
+	<div class="row">
+    	<div class="col-sm" id="maincol">
+			<h1>Username/Password Incorrect!</h1>
+			<p>Please Retry Login.<p>
+			<form class="formCnt" method="post" action="../backend/login_process.php">
+				<div class="row"><input type="text" placeholder="Username" name="username"></div>
+				<div class="row"><input type="password" placeholder="Password" name="password"></div>
+				<div id="btnpad">
+					<button id=class="sButton" type="submit"> Continue </button>
+				</div>
+				<div id="options" class="row">
+					<div class="col-sm" id="options">
+						<a href="#Forgot">Forgot Password</a>
+						<a class = "signup" href="/frontend/signup.php">Create An Account</a>
+					</div>
+				</div>
+			</form>
+		</div>	
+	</div>
+	
+	</div>
+
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/frontend/js/bootstrap.js"></script>

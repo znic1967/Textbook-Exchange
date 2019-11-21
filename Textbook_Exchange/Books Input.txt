@@ -1,0 +1,89 @@
+Pride and Prejudice
+Jane Austen
+10.95
+2345678
+
+Bleak House
+Charles Dickens
+8.99
+3567897
+
+A Room with a View
+E.M. Forster
+7.50
+1177889
+
+Jane Eyre
+Charlotte Bronte
+7.90
+2345674
+
+The Woman in White
+Wilkie Collins
+10.75
+3256789
+
+Middlemarch
+George Elliot
+12.50
+1256743
+
+Vanity Fair
+William Thackery
+11.99
+3456839
+
+Pedro Paramo 
+Juan Rulfo
+8.95
+1123456
+
+Como agua para chocolate
+Laura Esquivel
+6.90
+2375689
+
+La casa de los espiritus
+Isabel Allende
+7.50
+2117889
+
+Los diarios de motocicleta
+Ernesto Che Guevara
+10.99
+2241174
+
+Cien anos de soledad
+Gabriel Garcia Marquez
+9.75
+3556789
+
+El alquimista
+Paulo Coelho
+8.50
+3212132
+
+La casa en Mango Street
+Sandra Cisneros
+6.80
+1134231
+
+El beso de la mujer arana
+Manuel Puig
+7.75
+3456743
+
+Cajas de carton
+Francisco Jimenez
+10.99
+2256839
+
+Lady Audley's Secret
+Mary Elizabeth Braddon
+5.50
+1212134
+
+Gulliver's Travels
+Jonathan Swift
+6.80
+3434343

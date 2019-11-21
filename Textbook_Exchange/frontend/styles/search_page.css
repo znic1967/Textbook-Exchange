@@ -1,0 +1,92 @@
+body{
+    background:url('../../img/new_background/230322.jpg');
+    background-size:cover;
+    /*background-color: #262626;
+    color: #f2f2f2;*/
+    /*background-blend-mode: color-dodge;*/
+}
+h1{
+  color: white;
+    font-family: Futura, 'Titillium Web', sans-serif;
+    font-size: 40px;
+    padding: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-family: Futura, 'Titillium Web', sans-serif;
+    font-size: 1.3em;
+    padding: 20px;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: white;
+}
+.navbar-light .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+ul.navbar-nav a:hover, ul.navbar-nav a:active, ul.navbar-nav a:focus{
+    /*background-color: #10bce5;*/
+    color: #10bce5 !important;
+}
+a.dropdown-item{
+  font-family: Futura, 'Titillium Web', sans-serif;
+}
+.navbar-light img{
+  height: 170px;
+  padding:20px;
+}
+.navbar-light{
+  padding: none;
+}
+#carticon {
+   position:relative;
+}
+#carticon[data-badge]:after {
+   content: attr(data-badge);
+   position: absolute;
+   top: 1em;
+   right: -7px;
+   font-size: .7em;
+   background: none;
+   border: 2px solid white;
+   color: white;
+   width: 1.5em;
+   height: 1.5em;
+   text-align: center;
+   line-height: 18px;
+   border-radius: 50%;
+   font-family: Futura, 'Titillium Web', sans-serif;
+}
+.container-fluid h2{
+	color: white;
+	font-family: Helvetica;
+	text-align:center;
+	font-size: 1.5em;
+}
+
+.container-fluid p{
+	color: white;
+	font-family: Helvetica;
+	text-align:center;
+	font-size: 1em;
+}
+.container-fluid img{
+	height: 8em;
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+}
+.bookcol input[type=submit] {
+    padding:5px 15px; 
+    background:#10bce5; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    margin: 0 auto;
+    display: block;
+}
+
+.container-fluid .cartbtn{
+	padding: 10px;
+}

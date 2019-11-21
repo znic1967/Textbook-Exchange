@@ -1,0 +1,48 @@
+
+TEST #4
+
+emily
+password
+
+Succeeding with Agile: Software Development Using Scrum
+Someone
+9780321579362
+Price: $100
+
+EXCHANGE WITH:
+Delmar's Standard Textbook of Electricity
+Someone
+9781285852706
+
+
+damon
+password
+
+Delmar's Standard Textbook of Electricity
+Someone
+9781285852706
+Price: $75
+
+
+TEST #5
+
+emily
+password
+
+Fundamental Concepts in Electrical and Computer Engineering with Practical Design Problems
+Someone
+9781581129717
+Price: $10
+
+EXCHANGE WITH:
+The Big Ones: How Natural Disasters Have Shaped Us
+9781785784361
+
+
+damon
+password
+
+The Big Ones: How Natural Disasters Have Shaped Us
+Someone
+9781785784361
+Price: $125

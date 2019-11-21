@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration Page</title>
+	<link rel="stylesheet" href="/frontend/styles/bootstrap.css">
+	<link href = "/frontend/styles/signup.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="logo">
+			<a href="../homepage.php">
+				<img src="../img/logo_v8.png" alt="Logo">
+        	</a>
+		</div>
+	<div class="row">
+    	<div class="col-sm" id="maincol">
+			<h1>Sign Up</h1>
+			<p>Email Already Exists! Please Use a different Email.</p>
+			<form class="formCnt" method="post" action="../backend/signup_process.php">
+				<div class="row"><input id="fname" type="text" placeholder="First Name" name="firstname"></div>
+				<div class="row"><input id="lname" type="text" placeholder="Last Name" name="lastname"></div>
+				<div class="row"><input id="email" type="text" placeholder="Email" name="email"></div>
+				<div class="row"><input id="uname" type="text" placeholder="Username" name="username"></div>
+				<div class="row"><input id="pword" type="password" placeholder="Password" name="password"></div>
+				<div class="row"><input id="add" type="text" placeholder="Address" name="address"></div>
+				<div class="row"><input id="city" type="text" placeholder="City" name="city"></div>
+				<div class="row"><input id="state" type="text" placeholder="State" name="state"></div>
+				<div class="row"><input id="zip" type="text" placeholder="Zip" name="zip"></div>
+				<div class="row"><input id="pnum" type="text" placeholder="Phone Number" name="phone"></div>
+				<div id="btnpad">
+					<button id="createBtn" class="sButton" type="submit"> Create Your Account </button>
+				</div>
+			</form>
+		</div>	
+	</div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../../frontend/js/bootstrap.js"></script>
+
+<script>
+$(document).ready(function(){
+	$( "form" ).submit(function( event ) {
+  		var fname = $("#fname").val();
+  		var lname = $("#lname").val();
+  		var email = $("#email").val();
+  		var uname = $("#uname").val();
+  		var pword = $("#pword").val();
+  		var add = $("#add").val();
+  		var city = $("#city").val();
+  		var state = $("#state").val();
+  		var zip = $("#zip").val();
+  		var pnum = $("#pnum").val();
+  		var alerts = "";
+  		if(fname.length==0||lname.length==0||email.length==0||uname.length==0||pword.length==0||add.length==0||city.length==0||state.length==0||zip.length==0||pnum.length==0)
+  		{
+  			event.preventDefault();
+			alerts+="All forms must be completed to create account.\n";
+			//alert("Test");
+		}
+		var re= /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/; 
+		//Regex Expression to test for email formatting
+		var res = re.test(email);
+		if(!res)
+		{
+			event.preventDefault();
+			alerts+="Invalid Email.\n";
+		}
+
+		var re2= /^\d{5}(?:[-\s]\d{4})?$/; 
+		//Regex Expression to test for Zipcode formatting
+		var res2 = re2.test(zip);
+		if(!res2)
+		{
+			event.preventDefault();
+			alerts+="Invalid Zipcode.\n";
+		}
+		if("<?php echo $dup_email?>"==1)
+		{
+			event.preventDefault();
+			alerts+="Email already exists, please choose another one.\n";
+		}		
+		if("<?php echo $dup_username?>"==1)
+		{
+			event.preventDefault();
+			alerts+="Username already exists, please choose another one.\n";
+		}
+		if(alerts.length!=0){
+			alert(alerts);
+		}
+    return;
+	});
+});
+</script>
+</html>

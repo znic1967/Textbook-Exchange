@@ -1,0 +1,138 @@
+body{
+    background:url('../../img/new_background/230322.jpg');
+    background-size:cover;
+}
+.team-section{
+
+overflow: hidden;
+text-align: center; 
+background: none; 
+padding:60px;
+
+}
+
+.team-section h1{
+
+text-transform: uppercase;
+margin-bottom:60px;
+color:white;
+font-size:40px; 
+
+
+}
+
+.border{
+
+display: block;
+margin:auto;
+width:160px; 
+height:3px;
+margin-bottom:40px;
+
+}
+.ps {
+
+	margin-bottom: 40px ;
+}
+
+
+.ps a {
+  
+  display: inline-block ;
+  margin: 0 30px ; 
+  width: 160px; 
+  height: 160px ;
+  overflow: hidden;
+  border-radius: 50% ; 
+
+}
+
+
+.ps a img {
+
+width: 100px; 
+filter: grayscale(100%);
+transition: 0.4s all ; 
+
+}
+
+.ps a:hover > img {
+
+	filter:none;
+
+}
+
+
+section {
+
+	width: 600px ; 
+	margin:auto;
+	font-size: 20px ;
+	color:white;
+	text-align: justify; 
+	
+}
+
+
+span.name {
+	display: block ; 
+	margin-bottom: 30px; 
+	text-align: center ; 
+	text-transform: uppercase; 
+	font-size: 22px;
+	font-family: Helvetica;
+	color: white;
+
+}
+p{
+	font-family: Helvetica;
+	color: white;
+	margin: 0% 25% 0% 25%;
+	padding: 1%;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-family: Futura, 'Titillium Web', sans-serif;
+    font-size: 1.3em;
+    padding: 20px;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: white;
+}
+.navbar-light .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+ul.navbar-nav a:hover, ul.navbar-nav a:active, ul.navbar-nav a:focus{
+    /*background-color: #10bce5;*/
+    color: #10bce5 !important;
+}
+a.dropdown-item{
+  font-family: Futura, 'Titillium Web', sans-serif;
+}
+.navbar-light img{
+  height: 170px;
+  padding: 20px;
+}
+.navbar-light{
+  padding: none;
+}
+#carticon {
+   position:relative;
+}
+#carticon[data-badge]:after {
+   content: attr(data-badge);
+   position: absolute;
+   top: 1em;
+   right: -7px;
+   font-size: .7em;
+   background: none;
+   border: 2px solid white;
+   color: white;
+   width: 1.5em;
+   height: 1.5em;
+   text-align: center;
+   line-height: 18px;
+   border-radius: 50%;
+   font-family: Helvetica;
+}

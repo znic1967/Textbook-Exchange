@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration Page</title>
+	<link href = "logging_style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container1">
+		<div class="logo">
+			<a href="../homepage.php">
+				<img src="../img/Logo.jpg" alt="Logo">
+			</a>
+		</div>
+	</div>
+
+	<div class="failed_container">
+		<p class="alert">There was a problem!</p>
+		<p>All fields are required. Please try again.</p>
+	</div>
+	
+	<div class = "container2_header">
+		<div class="signing_box">
+			<h1>Sign Up</h1>
+		</div>
+	</div>	
+
+	<div class = "container2_data">
+		<div class="signing_box">
+			<form method="post" action="../backend/signup_process.php">
+				<table>
+
+					<tr>
+						<td>
+							<input type="text" placeholder="First Name" name="firstname">
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<input type="text" placeholder="Last Name" name="lastname">
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<input type="text" placeholder="Email" name="email">
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<input type="text" placeholder="Username" name="username">
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<input type="password" placeholder="Password" name="password">
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<input type="text" placeholder="Address" name="address">
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<input type="text" placeholder="City" name="city">
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<input type="text" placeholder="State" name="state">
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<input type="text" placeholder="Zip" name="zip">
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<input type="text" placeholder="Phone Number" name="phone">
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<button class="sButton" type="submit"> Create Your Account </button>
+						</td>
+					</tr>
+
+				</table>
+			</form>			
+		</div>
+	</div>
+</body>
+</html>
